@@ -1,0 +1,9 @@
+{
+  "checked_runs": 36,
+  "response_maps_bit_identical": 36,
+  "coordinate_arrays_identical": 36,
+  "all_non_timing_fields_identical": true,
+  "script_unchanged": true,
+  "verification_environment": "Same recorded Python, NumPy and OpenCV environment as the original run",
+  "timings": "Excluded from equality checks; original measurements preserved"
+}

@@ -1,0 +1,9 @@
+﻿Function or operation,Parameters used,Output and meaning
+cv2.imread and cv2.cvtColor,BGR load; COLOR_BGR2GRAY,M × N × 3 uint8 color input becomes M × N grayscale.
+cv2.cornerMinEigenVal,"image, blockSize, ksize=ksize, borderType","M × N float32 Shi–Tomasi response, the smaller eigenvalue."
+cv2.cornerHarris,"image, blockSize, ksize, k, borderType",M × N float32 det(H) − k trace(H)² response.
+cv2.cornerEigenValsAndVecs,"image, blockSize, ksize, borderType","M × N × 6 float32: λa, λb, vax, vay, vbx, vby. The eigenvalues are unsorted."
+Vectorized DT arithmetic,First two eigenvalue channels; ε = 10⁻¹²,M × N float32 λaλb/(λa+λb); zero where the sum is ≤ ε.
+cv2.dilate,One 3 × 3 uint8 all-one kernel,M × N local maximum map used with the positive threshold mask.
+cv2.connectedComponents,8-connectivity on local maxima,M × N labels; keep the first row-major position per equal-response plateau.
+Coordinate extraction and saving,"(x,y), zero-based; NumPy and CSV","K × 2 int32 points, dense response .npy, threshold mask .png and overlay .png."

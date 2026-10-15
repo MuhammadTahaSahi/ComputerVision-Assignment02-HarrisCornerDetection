@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "opencv": "4.13.0",
+  "numpy": "2.4.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "threads": 1,
+  "timing": "One warm-up then median of five runs; response and NMS recomputed; no I/O, plotting or evaluation",
+  "seed": 47702,
+  "noise_std": 0.02,
+  "hashes": {
+    "building_original.jpg": "742a1baad62ac82e91e718e77eedf7e85c2eddc4badfb8c87c6cbc86c45a8b07",
+    "fruits_original.jpg": "9c031d80a1c52da5eca790db896baffec6a7e52bf786cdb7bbfca5c7f880e6a1"
+  }
+}

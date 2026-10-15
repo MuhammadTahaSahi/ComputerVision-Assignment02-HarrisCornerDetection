@@ -1,0 +1,10 @@
+{
+  "baseline": {"ksize": 3, "block_size": 5, "k": 0.04, "alpha": 0.01},
+  "sweeps": {"ksize": [3, 5, 7], "block_size": [3, 5, 7, 9], "alpha": [0.01, 0.05, 0.10], "k": [0.02, 0.04, 0.06, 0.08]},
+  "seed": 47702,
+  "size": 384,
+  "epsilon": 1e-12,
+  "border": 6,
+  "nms": 3,
+  "tolerance": 3.0
+}

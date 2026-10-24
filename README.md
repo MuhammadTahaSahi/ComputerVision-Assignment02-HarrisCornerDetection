@@ -28,13 +28,6 @@ Image sources:
 
 API reference: https://docs.opencv.org/4.13.0/dd/d1a/group__imgproc__feature.html
 
-
-
-
-## Assistance disclosure
-
-OpenAI Codex was used extensively on 15 October 2026 to draft explanations, develop the Python experiment and evaluation code, run the experiments through tools, generate figures and tables, interpret measured results, and format this submission. This assistance went beyond proofreading. The supplied handwritten Part A and Part B pages were inserted as images. The detector results in Parts C to E come from executing the supplied OpenCV program; they were not invented by the language model. No claim is made here that the student independently wrote or personally verified every part of the implementation. [9]
-
 External code: OpenCV and NumPy are dependencies, not code written by the student. No third-party listing was copied. Python standard-library modules handle file formats, timing and arguments. The original photographs come from the cited OpenCV repository.
 
 ## Repeatability check

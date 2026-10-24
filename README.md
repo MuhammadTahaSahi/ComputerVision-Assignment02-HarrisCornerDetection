@@ -59,6 +59,4 @@ A fresh run in the recorded environment matched all 36 response maps bit for bit
 
 [8] NumPy. Generator.normal, NumPy 2.4 documentation. https://numpy.org/doc/2.4/reference/random/generated/numpy.random.Generator.normal.html
 
-[9] OpenAI. Codex [AI coding assistant]. Used 15 October 2026 for the assistance disclosed above. Official documentation: https://developers.openai.com/api/docs/guides/code-generation
-
 [10] SEECS. CS477 Assignment 2 Harris Corner Detection. Course assignment handout supplied for this submission, pp. 1-6.
